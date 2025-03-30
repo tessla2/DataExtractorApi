@@ -5,12 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
 @SpringBootApplication
-public class DataPdfApplication {
+public class DataApplication {
 
 	public static void main(String[] args) {
 		//SpringApplication.run(DadosPdfApplication.class, args);
 
-		SpringApplicationBuilder builder = new SpringApplicationBuilder(DataPdfApplication.class);
+		SpringApplicationBuilder builder = new SpringApplicationBuilder(DataApplication.class);
 
 		builder.bannerMode(Banner.Mode.OFF);
 
